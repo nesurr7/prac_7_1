@@ -55,4 +55,12 @@ public class Plate extends Dish {
                 "\nЦвет тарелки:" + color +
                 "\n_________________";
     }
+
+    public void crackPlate(){
+        System.out.println("Тарелка треснула");
+    }
+
+    public void plateRolled(){
+        System.out.println("Тарелка покатилась");
+    }
 }

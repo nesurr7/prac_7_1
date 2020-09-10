@@ -52,6 +52,13 @@ public class Cup extends Dish{
                 "\nМатериал:" + material +
                 "\nЦвет:" + color +
                 "\n______________";
+    }
 
+    public void moveCup(){
+        System.out.println("Чашка двинулась с места");
+    }
+
+    public void jumpCup(){
+        System.out.println("Чашка прыгнула в сторону посуды");
     }
 }
